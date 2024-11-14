@@ -162,9 +162,6 @@ resource "aws_security_group_rule" "eks_control_plane_bastion" {
 } 
 
 
-
-
-
 # resource "aws_security_group_rule" "backend_app_alb" {  
 #   type              = "ingress"
 #   from_port         = 8080
